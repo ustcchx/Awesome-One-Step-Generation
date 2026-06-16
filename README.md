@@ -154,6 +154,14 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_Learning_Straight_Flows_Variational_Flow_Matching_for_Efficient_Generation_CVPR_2026_paper.pdf)]  
   Learning straight flows via variational latent codes integrated with the flow-matching objective.
 
+- **Beyond Optimal Transport: Model-Aligned Coupling for Flow Matching** [CVPR 2026 Findings] 🟢  
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2026F/html/Lin_Beyond_Optimal_Transport_Model-Aligned_Coupling_for_Flow_Matching_CVPRF_2026_paper.html)] [[Code](https://github.com/tmllab/2026_CVPR_MAC)]  
+  Model-aligned coupling selects learnable source-target pairs to improve one-step/few-step flow matching generation.
+
+- **SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation** [arXiv 2026] 🟢  
+  [[Paper](https://arxiv.org/abs/2604.12273)]  
+  Sub-mode conditioning reduces averaging distortion and improves diversity in one-step flow matching.
+
 ### Distillation (🔵)
 
 > **Progressive Distillation** is catalogued under [Related Resources → Foundational Works](#foundational-works) as it is a general step-compression method rather than a one-step-specific technique. It is cross-referenced here as it inspired much of the flow-distillation lineage.
@@ -447,6 +455,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | Date | Paper | Venue | Type | Category | Links |
 |------|-------|-------|:----:|:--------:|------|
 | 2026.05 | FlowSR: Fast Image SR via Consistency Rectified Flow | ICCV 2025 | 🟢 | APP | [[Paper](https://arxiv.org/abs/2605.12377)] |
+| 2026.04 | SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
 | 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.10592)] |
 | 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.03 | Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.09936)] |
@@ -476,6 +485,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | 2025.06 | DCM: Dual-Expert Consistency Model for Video | ICCV 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2506.03123)] |
 | 2025.06 | Variational Flow Matching (S-VFM) | CVPR 2026 | 🟢 | FS | [[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_Learning_Straight_Flows_Variational_Flow_Matching_for_Efficient_Generation_CVPR_2026_paper.pdf)] |
 | 2025.05 | TSD-SR: One-Step Diffusion with Target Score Distillation | CVPR 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2411.18263)] [[Code](https://github.com/Microtreei/TSD-SR)] |
+| 2025.05 | Beyond Optimal Transport: Model-Aligned Coupling for Flow Matching | CVPR 2026 Findings | 🟢 | FS | [[Paper](https://openaccess.thecvf.com/content/CVPR2026F/html/Lin_Beyond_Optimal_Transport_Model-Aligned_Coupling_for_Flow_Matching_CVPRF_2026_paper.html)] [[Code](https://github.com/tmllab/2026_CVPR_MAC)] |
 | 2025.05 | Mean Flows for One-step Generative Modeling (MeanFlow) | NeurIPS 2025 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2505.13447)] [[Code](https://github.com/haidog-yaqub/MeanFlow)] |
 | 2025.05 | VideoScene: One-Step 3D Scene Generation | CVPR 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2504.01956)] [[Code](https://github.com/THU-SI/VideoScene)] |
 | 2025.04 | OSV: One Step is Enough for High-Quality Image to Video Generation | CVPR 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2409.11367)] |
