@@ -464,6 +464,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.03 | Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.09936)] |
 | 2026.03 | SoFlow: Solution Flow Models for One-Step Generative Modeling | ICLR 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2512.15657)] [[Code](https://github.com/zlab-princeton/SoFlow)] |
+| 2026.02 | Bi-Anchor Interpolation Solver for Accelerating Generative Modeling | ICML 2026 | 🔵 | SC | [[Paper](https://arxiv.org/abs/2601.21542)] [[Code](https://github.com/HKUST-LongGroup/BA-solver)] |
 | 2026.02 | Generative Modeling via Drifting | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2602.04770)] [[Code](https://github.com/lambertae/drifting)] |
 | 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.01 | DiffRatio: Training One-Step Diffusion Models Without Teacher Supervision | ICLR 2025 | 🟢 | DDM | [[Paper](https://arxiv.org/abs/2502.08005)] [[Code](https://github.com/Wenlin-Chen/DiffRatio)] |
